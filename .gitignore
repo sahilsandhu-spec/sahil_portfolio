@@ -1,0 +1,15 @@
+.DS_Store
+.agents/
+.claude/
+.codex/
+docs/.DS_Store
+docs/*.pdf
+docs/*.png
+Docs/.DS_Store
+Docs/*.pdf
+Docs/*.png
+skills-lock.json
+tmp/
+node_modules/
+dist/
+build/
