@@ -38,8 +38,6 @@ https://sahilsandhu-spec.github.io/sahil_portfolio/
 Search for these tokens:
 
 ```text
-TODO_EMAIL_TO_REPLACE
-TODO_LINKEDIN_URL_TO_REPLACE
 TODO_RESUME_PLACEHOLDER
 TODO_EXPERIENCE_TITLES_DATES
 TODO_EDUCATION_DETAILS
@@ -51,4 +49,3 @@ Replace them with values from Sahil's latest approved public resume.
 ## Rollback
 
 Rollback by reverting the problematic commit on `main` and pushing again. GitHub Actions will redeploy the previous static site state.
-

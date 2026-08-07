@@ -39,7 +39,7 @@ The site is public-safe and must not reveal confidential employer, customer, sup
 - No backend, database, CMS, analytics, third-party scripts, remote fonts, external CSS frameworks, external JavaScript libraries, cookies, or contact-form backend.
 - Must run with `python3 -m http.server` from inside `site/`.
 - Must include dark and light theme support, mobile navigation, resume download path, SEO metadata, sitemap, robots file, custom 404 page, and documentation.
-- Resume PDF, exact email, LinkedIn URL, exact job titles, dates, education details, and publication details are not present in the supplied workspace and remain open launch items.
+- Resume PDF, exact job titles, dates, education details, and publication details are not present in the supplied workspace and remain open launch items.
 
 ## Brand Commitments
 
@@ -63,4 +63,3 @@ The supplied desktop and mobile hero images establish the visual direction: cool
 ## Accessibility & Inclusion
 
 Target WCAG 2.2 AA principles: semantic landmarks, logical headings, keyboard navigation, visible focus, sufficient contrast, descriptive links, accessible theme control, accessible mobile menu, reduced-motion support, and responsive layouts without horizontal overflow.
-

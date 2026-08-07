@@ -41,7 +41,7 @@ https://sahilsandhu-spec.github.io/sahil_portfolio/
 
 ## Personalization Required
 
-The PRD was supplied, but the latest resume PDF was not. Before public launch, replace the clearly marked placeholders for resume, email, LinkedIn, experience titles/dates, education details, and publication details.
+The PRD was supplied, but the latest resume PDF was not. Before public launch, replace the clearly marked placeholders for resume, experience titles/dates, education details, and publication details.
 
 ## Privacy and Confidentiality
 

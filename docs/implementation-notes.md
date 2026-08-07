@@ -25,7 +25,7 @@ The site deliberately avoids fake dashboards. The program operating model visual
 
 ## Content Decisions
 
-The PRD contains strong role positioning, metrics, and public-safe case-study titles. It does not include the latest resume PDF, exact email, LinkedIn URL, exact Exicom titles and dates, exact education dates, or publication details.
+The PRD contains strong role positioning, metrics, and public-safe case-study titles. The user supplied the professional email and LinkedIn URL on 7 August 2026. The latest resume PDF, exact Exicom titles and dates, exact education dates, and publication details were not supplied.
 
 Where resume-dependent information is missing, the site uses clearly marked placeholders and the docs list the required replacements.
 

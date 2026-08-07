@@ -19,14 +19,12 @@ Manual and automated checks for the static portfolio site in `site/`.
 | Theme toggle | Pass by source inspection | Local storage persistence, system fallback, and live system-preference listener |
 | Resume link | Pass with placeholder | Placeholder PDF is valid and served as `application/pdf`; replace before public promotion |
 | SEO files | Pass | `robots.txt`, `sitemap.xml`, metadata, Open Graph, Twitter cards, JSON-LD, favicon, and manifests present |
-| Placeholder scan | Pass with documented blockers | `TODO_` markers are limited to missing resume/contact/education/publication details and deployment docs |
+| Placeholder scan | Pass with documented blockers | `TODO_` markers are limited to missing resume/experience/education/publication details and deployment docs |
 | Disclosure scan | Pass | Public copy stays generic; confidential product names, raw telemetry, source data, and private resume details are not published |
 
 ## Known Pre-Launch Gaps
 
 - Latest approved public resume PDF was not supplied.
-- Professional email was not supplied.
-- LinkedIn URL was not supplied.
 - Exact Exicom titles, dates, and locations were not supplied.
 - Exact IIT Madras, INDO-SWISS, and publication details were not supplied.
 

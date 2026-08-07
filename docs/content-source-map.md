@@ -25,6 +25,5 @@ This map records each public claim used by the site and whether it is fully veri
 | INDO-SWISS education | PRD content requirements | Education | Placeholder detail pending latest resume |
 | Publication summary | PRD content requirements | Education | Placeholder detail pending latest resume |
 | Gurugram, India | PRD content requirements | Contact | Public-safe city-level location |
-| Professional email | PRD content requirements | Contact | Placeholder pending latest resume |
-| LinkedIn profile | PRD content requirements | Contact | Placeholder pending latest resume |
-
+| Professional email | User supplied on 7 August 2026 | Contact, structured data | Public-safe as supplied |
+| LinkedIn profile | User supplied on 7 August 2026 | Hero, Contact, structured data | Public-safe as supplied |
