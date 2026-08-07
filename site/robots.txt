@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sahilsandhu-spec.github.io/sahil_portfolio/sitemap.xml
+
