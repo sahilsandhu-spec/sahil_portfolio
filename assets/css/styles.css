@@ -459,7 +459,7 @@ h1 span {
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -493,7 +493,9 @@ h1 span {
 
 .metric-card p,
 .pillar p,
+.domain-card p,
 .program-card dd,
+.program-summary,
 .timeline-item p,
 .skill-group p,
 .credential-card p {
@@ -501,6 +503,7 @@ h1 span {
 }
 
 .about-grid,
+.domain-grid,
 .skills-grid,
 .credential-grid {
   display: grid;
@@ -509,6 +512,7 @@ h1 span {
 }
 
 .pillar,
+.domain-card,
 .skill-group,
 .credential-card {
   padding: clamp(1.3rem, 3vw, 1.8rem);
@@ -519,6 +523,7 @@ h1 span {
 }
 
 .pillar h3,
+.domain-card h3,
 .skill-group h3,
 .credential-card h3,
 .program-card h3,
@@ -526,6 +531,25 @@ h1 span {
   color: var(--ink-strong);
   font-size: 1.08rem;
   line-height: 1.25;
+}
+
+.domain-grid {
+  align-items: stretch;
+}
+
+.domain-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.domain-card img {
+  width: 100%;
+  margin: -0.55rem 0 1.2rem;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--canvas) 70%, var(--surface));
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  box-shadow: inset 0 0 0 1px var(--line);
 }
 
 .program-grid {
@@ -558,6 +582,31 @@ h1 span {
 .program-topline strong {
   color: var(--teal);
   font-variant-numeric: tabular-nums;
+}
+
+.program-summary {
+  margin-bottom: 1rem;
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.program-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.program-tags li {
+  padding: 0.4rem 0.62rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 850;
 }
 
 .program-card dl {
@@ -699,7 +748,7 @@ h1 span {
 .contact-details {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1px;
   overflow: hidden;
   margin: 0;
@@ -789,6 +838,7 @@ h1 span {
 @media (hover: hover) and (pointer: fine) {
   .program-card:hover,
   .pillar:hover,
+  .domain-card:hover,
   .skill-group:hover,
   .credential-card:hover,
   .metric-card:hover {
@@ -798,6 +848,7 @@ h1 span {
 
   .program-card,
   .pillar,
+  .domain-card,
   .skill-group,
   .credential-card,
   .metric-card {
@@ -865,6 +916,7 @@ h1 span {
   }
 
   .about-grid,
+  .domain-grid,
   .program-grid,
   .skills-grid,
   .credential-grid,
@@ -932,6 +984,7 @@ h1 span {
 
   .metrics-grid,
   .about-grid,
+  .domain-grid,
   .program-grid,
   .skills-grid,
   .credential-grid,
@@ -982,4 +1035,3 @@ h1 span {
     -webkit-backdrop-filter: none;
   }
 }
-
