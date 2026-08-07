@@ -39,9 +39,11 @@ Expected URL:
 https://sahilsandhu-spec.github.io/sahil_portfolio/
 ```
 
-## Personalization Required
+## Content Maintenance
 
-The PRD was supplied, but the latest resume PDF was not. Before public launch, replace the clearly marked placeholders for resume, experience titles/dates, education details, and publication details.
+The latest supplied resume is published at `site/assets/files/Sahil_Sandhu_Resume.pdf`, and resume-backed role, education, publication, program, phone, and skill details are reflected in the page. The public contact email is `sahilsandhu397@gmail.com`.
+
+When the resume changes, replace both the private source PDF in `docs/` and the public download copy under `site/assets/files/`, then update the page copy and docs together.
 
 ## Privacy and Confidentiality
 

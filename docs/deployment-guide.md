@@ -33,18 +33,12 @@ https://sahilsandhu-spec.github.io/sahil_portfolio/
 5. Push to `main`.
 6. Confirm the workflow named `Deploy portfolio to GitHub Pages` succeeds.
 
-## Required Replacements Before Public Promotion
+## Public Content Checks Before Promotion
 
-Search for these tokens:
-
-```text
-TODO_RESUME_PLACEHOLDER
-TODO_EXPERIENCE_TITLES_DATES
-TODO_EDUCATION_DETAILS
-TODO_PUBLICATION_DETAILS
-```
-
-Replace them with values from Sahil's latest approved public resume.
+- Confirm the public email is still `sahilsandhu397@gmail.com`.
+- Confirm the phone, role dates, education, publication, and resume PDF match the latest approved public resume.
+- Confirm the repository Pages source is set to GitHub Actions.
+- Confirm the `Deploy portfolio to GitHub Pages` workflow succeeds after the latest push.
 
 ## Rollback
 

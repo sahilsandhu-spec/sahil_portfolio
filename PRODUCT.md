@@ -39,7 +39,8 @@ The site is public-safe and must not reveal confidential employer, customer, sup
 - No backend, database, CMS, analytics, third-party scripts, remote fonts, external CSS frameworks, external JavaScript libraries, cookies, or contact-form backend.
 - Must run with `python3 -m http.server` from inside `site/`.
 - Must include dark and light theme support, mobile navigation, resume download path, SEO metadata, sitemap, robots file, custom 404 page, and documentation.
-- Resume PDF, exact job titles, dates, education details, and publication details are not present in the supplied workspace and remain open launch items.
+- Resume PDF, exact job titles, dates, education details, publication details, phone, and resume email are sourced from `docs/SahilSandhu.pdf`.
+- The public contact email is the user-supplied `sahilsandhu397@gmail.com`.
 
 ## Brand Commitments
 
@@ -47,10 +48,11 @@ The supplied desktop and mobile hero images establish the visual direction: cool
 
 ## Evidence on Hand
 
-- `Docs/Sahil_Sandhu_Portfolio_PRD_and_Launch_Pack 9.24.54 PM.pdf`: authoritative product, content, architecture, disclosure, deployment, and roadmap source.
-- `Docs/desktop-hero.png` and `Docs/mobile-hero.png`: supplied visual direction references.
+- `docs/Sahil_Sandhu_Portfolio_PRD_and_Launch_Pack 9.24.54 PM.pdf`: authoritative product, content, architecture, disclosure, deployment, and roadmap source.
+- `docs/SahilSandhu.pdf`: latest supplied resume source for exact role dates, education, publication, phone, program descriptions, and skill details.
+- `docs/desktop-hero.png` and `docs/mobile-hero.png`: supplied visual direction references.
 - Verified PRD metrics: 7 years of experience, 15+ NPI programs, 10+ automated HIL/ATE systems, 12,000+ connected units, 80% lower validation effort, 70% faster firmware cycles, 45% lower product failures, and more than 40% lower MTTR.
-- No latest resume PDF was supplied. Resume-dependent details are placeholders and must not be treated as verified.
+- Latest resume details are incorporated into the site. Public contact email remains the user-supplied Gmail address.
 
 ## Product Principles
 

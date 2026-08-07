@@ -17,15 +17,14 @@ Manual and automated checks for the static portfolio site in `site/`.
 | Responsive screenshots | Limited | Headless browser/Playwright was not available in this environment; macOS Quick Look produced a low-confidence 1440px thumbnail only |
 | Mobile menu | Pass by source inspection | Button has `aria-expanded`, `aria-controls`, Escape close, outside-link close, and body scroll lock |
 | Theme toggle | Pass by source inspection | Local storage persistence, system fallback, and live system-preference listener |
-| Resume link | Pass with placeholder | Placeholder PDF is valid and served as `application/pdf`; replace before public promotion |
+| Resume link | Pass | `site/assets/files/Sahil_Sandhu_Resume.pdf` replaced with latest supplied 2-page resume PDF |
 | SEO files | Pass | `robots.txt`, `sitemap.xml`, metadata, Open Graph, Twitter cards, JSON-LD, favicon, and manifests present |
-| Placeholder scan | Pass with documented blockers | `TODO_` markers are limited to missing resume/experience/education/publication details and deployment docs |
+| Placeholder scan | Pass | No `TODO_` markers remain in the site or required docs |
 | Disclosure scan | Pass | Public copy stays generic; confidential product names, raw telemetry, source data, and private resume details are not published |
 
 ## Known Pre-Launch Gaps
 
-- Latest approved public resume PDF was not supplied.
-- Exact Exicom titles, dates, and locations were not supplied.
-- Exact IIT Madras, INDO-SWISS, and publication details were not supplied.
+- GitHub Pages public URL may remain 404 until the repository Pages source is set to GitHub Actions and the workflow succeeds.
+- Final public-disclosure review should still happen before sharing the URL widely.
 
-These gaps are intentionally listed and are not silently invented.
+No resume-dependent placeholders remain in the website.

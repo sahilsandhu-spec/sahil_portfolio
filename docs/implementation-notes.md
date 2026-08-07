@@ -25,9 +25,9 @@ The site deliberately avoids fake dashboards. The program operating model visual
 
 ## Content Decisions
 
-The PRD contains strong role positioning, metrics, and public-safe case-study titles. The user supplied the professional email and LinkedIn URL on 7 August 2026. The latest resume PDF, exact Exicom titles and dates, exact education dates, and publication details were not supplied.
+The PRD contains strong role positioning, metrics, and public-safe case-study titles. The user supplied the public contact email and LinkedIn URL on 7 August 2026. The latest resume PDF was then supplied as `docs/SahilSandhu.pdf` and used for exact Exicom titles and dates, education details, publication details, phone, selected technical programs, and skill details.
 
-Where resume-dependent information is missing, the site uses clearly marked placeholders and the docs list the required replacements.
+The resume lists `sahilsandhu@alumni.iitm.ac.in`; the site contact remains `sahilsandhu397@gmail.com` because the user explicitly supplied that address for the portfolio.
 
 ## Accessibility
 

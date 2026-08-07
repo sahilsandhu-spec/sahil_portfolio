@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Generic automated test station illustration</title>
+  <desc id="desc">A public-safe technical illustration of an automated HIL and ATE test station with bench equipment, fixtures, and signal connections.</desc>
+  <defs>
+    <linearGradient id="station-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#e5edff"/>
+    </linearGradient>
+    <filter id="station-shadow" x="-20%" y="-20%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#13336f" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="720" height="480" rx="44" fill="url(#station-bg)"/>
+  <g filter="url(#station-shadow)">
+    <rect x="132" y="118" width="456" height="266" rx="28" fill="#ffffff" stroke="#aebfe7" stroke-width="3"/>
+    <rect x="160" y="148" width="180" height="110" rx="16" fill="#07111f"/>
+    <path d="M186 222c24-42 47-42 70 0s46 42 70 0" fill="none" stroke="#8ee8db" stroke-width="7" stroke-linecap="round"/>
+    <rect x="372" y="150" width="162" height="52" rx="14" fill="#eef4ff" stroke="#bed0f6" stroke-width="2"/>
+    <rect x="372" y="222" width="162" height="52" rx="14" fill="#eef4ff" stroke="#bed0f6" stroke-width="2"/>
+    <rect x="176" y="296" width="368" height="54" rx="15" fill="#dce7ff" stroke="#b2c4ec" stroke-width="2"/>
+    <g stroke="#3157f6" stroke-width="6" stroke-linecap="round">
+      <path d="M392 176h62"/>
+      <path d="M392 248h88"/>
+      <path d="M206 324h88M330 324h76M446 324h50"/>
+    </g>
+    <g fill="#0d9488">
+      <circle cx="518" cy="176" r="12"/>
+      <circle cx="518" cy="248" r="12"/>
+      <circle cx="520" cy="324" r="10"/>
+    </g>
+    <path d="M250 258v38M454 274v22M520 274v50" stroke="#10233f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M112 388h496" stroke="#10233f" stroke-width="18" stroke-linecap="round"/>
+  </g>
+</svg>
