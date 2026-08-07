@@ -24,19 +24,33 @@ Expected project-site URL:
 https://sahilsandhu-spec.github.io/sahil_portfolio/
 ```
 
-## Fallback Branch Publishing
+## Exact Fix for a GitHub Pages 404
 
-A `gh-pages` branch is also pushed with the built static site at the branch root. If the public URL still returns 404 after the Actions workflow push, use either of these repository settings:
+The code is already pushed in two valid publishing forms. If `https://sahilsandhu-spec.github.io/sahil_portfolio/` returns 404, the required change is in GitHub repository settings, not in the source files.
 
-- Preferred: Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
-- Fallback: Settings -> Pages -> Build and deployment -> Source: Deploy from a branch, Branch: `gh-pages`, Folder: `/root`.
+Fastest fix:
+
+1. Open `https://github.com/sahilsandhu-spec/sahil_portfolio`.
+2. Go to Settings -> Pages.
+3. Under Build and deployment, set Source to `Deploy from a branch`.
+4. Set Branch to `gh-pages`.
+5. Set Folder to `/root`.
+6. Click Save.
+7. Wait one to three minutes, then open `https://sahilsandhu-spec.github.io/sahil_portfolio/`.
+
+Alternative Actions-based setup:
+
+1. Go to Settings -> Pages.
+2. Set Source to `GitHub Actions`.
+3. Go to the Actions tab.
+4. Confirm the workflow named `Deploy portfolio to GitHub Pages` runs successfully after a push to `main`.
 
 ## Required GitHub Settings
 
 1. Open the repository on GitHub.
 2. Go to Settings.
 3. Open Pages.
-4. Set Build and deployment source to GitHub Actions, or use the `gh-pages` branch fallback above.
+4. Set Build and deployment source to `Deploy from a branch` using `gh-pages` and `/root`, or use GitHub Actions.
 5. Push to `main`.
 6. Confirm the workflow named `Deploy portfolio to GitHub Pages` succeeds, or confirm the `gh-pages` branch source is selected.
 

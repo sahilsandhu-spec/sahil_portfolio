@@ -2,7 +2,7 @@
 
 ## Design Read
 
-Reading this as: a professional experience portfolio for technical recruiters and engineering leaders, with a calm technical executive language, leaning toward static HTML/CSS, system typography, supplied hero imagery, and restrained motion.
+Reading this as: a professional experience portfolio for technical recruiters and engineering leaders, with a calm technical executive language, static HTML/CSS, system typography, realistic public-safe technical imagery, and restrained motion.
 
 ## Architecture
 
@@ -13,9 +13,9 @@ Reading this as: a professional experience portfolio for technical recruiters an
 
 ## Visual Direction
 
-The design extends the supplied desktop and mobile hero PNGs: cool off-white canvas, deep navy ink, electric blue emphasis, subtle grid texture, glass-like technical surfaces, and compact navigation.
+The design now uses generated, public-safe, realistic technical imagery rather than the supplied example hero PNGs. The visual world remains cool off-white canvas, deep navy ink, electric blue emphasis, subtle technical surfaces, and compact navigation.
 
-The site deliberately avoids fake dashboards. The program operating model visual is a conceptual architecture diagram based on PRD content, not a product screenshot or employer artifact.
+The imagery deliberately avoids employer-specific product shots, customer names, proprietary diagrams, readable UI text, and brand markings. Education and publication marks are local badge-style identifiers rather than downloaded official logos.
 
 ## Installed UI Skill Guidance Applied
 

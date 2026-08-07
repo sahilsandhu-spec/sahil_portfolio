@@ -25,9 +25,9 @@ This map records each public claim used by the site and whether it is sourced fr
 | Exicom Tele-Systems experience and role progression | `docs/SahilSandhu.pdf` | Experience | Public-safe employer mention and exact dates supplied by resume |
 | IIT Madras Bachelor of Science in Data Science and Applications | `docs/SahilSandhu.pdf` | Education | Public-safe |
 | INDO-SWISS Engineering Diploma in Electronics; Mechatronics and Industrial Automation | `docs/SahilSandhu.pdf` | Education | Public-safe |
-| Robotics and IoT publication | `docs/SahilSandhu.pdf` | Education | Public-safe |
+| Robotics and IoT publication | `docs/SahilSandhu.pdf`; DOI reference `https://doi.org/10.4018/978-1-5225-9574-8.ch006` | Education | Public-safe and clickable |
 | Gurugram, India | PRD content requirements | Contact | Public-safe city-level location |
 | Professional email | User supplied on 7 August 2026 | Contact, structured data | Public-safe as supplied |
 | Phone number | `docs/SahilSandhu.pdf` | Contact, structured data | Public-safe because it appears in supplied resume |
 | LinkedIn profile | User supplied on 7 August 2026 | Hero, Contact, structured data | Public-safe as supplied |
-| Battery pack, BMS, EV charger, and testing-station images | User request on 7 August 2026; generic SVG assets authored for this site | Domain image strip | Public-safe, illustrative only |
+| Hero, battery pack, BMS, EV charger, and testing-station images | User request on 7 August 2026; AI-generated local JPEG assets authored for this site | Hero and domain image strip | Public-safe, illustrative only, no logos or proprietary markings |

@@ -2,7 +2,7 @@
 
 ## 1. Visual Theme & Atmosphere
 
-A calm technical executive portfolio with an evidence-led interface language. The atmosphere is cool, precise, and premium, borrowing from engineering program dashboards without becoming a fake dashboard. Variance is moderate: asymmetric hero and varied section rhythms, but every section stays recruiter-readable.
+A calm technical executive portfolio with an evidence-led interface language. The atmosphere is cool, precise, and premium, borrowing from real validation labs and engineering program dashboards without becoming a fake dashboard. Variance is moderate: asymmetric hero, realistic technical imagery, and varied section rhythms, but every section stays recruiter-readable.
 
 ## 2. Color Palette & Roles
 
@@ -35,7 +35,7 @@ One accent family carries the page: blue is the action color, teal is reserved f
 
 ## 5. Layout Principles
 
-The layout follows a responsive grid with a maximum content width near 1180px. The hero is left-weighted with a right-side architecture visual, echoing the supplied hero screenshots. Sections vary by rhythm: metric strip, narrative overview, asymmetric program grid, timeline, operating model, grouped capabilities, credentials, and contact close. Mobile collapses to a strict single column.
+The layout follows a responsive grid with a maximum content width near 1180px. The hero is left-weighted with a right-side realistic validation-lab visual. Sections vary by rhythm: metric strip, narrative overview, realistic domain imagery, asymmetric program grid, timeline, operating model, grouped capabilities, credentials, and contact close. Mobile collapses to a strict single column.
 
 ## 6. Motion & Interaction
 
@@ -53,4 +53,3 @@ Motion is subtle and purposeful: reveal on scroll for scan order, short hover/pr
 - No hidden tracking.
 - No section-number eyebrows.
 - No repeated identical card rows as the page structure.
-

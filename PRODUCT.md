@@ -44,13 +44,13 @@ The site is public-safe and must not reveal confidential employer, customer, sup
 
 ## Brand Commitments
 
-The supplied desktop and mobile hero images establish the visual direction: cool off-white canvas, deep navy text, electric blue emphasis, calm technical surfaces, compact sticky navigation, and an architecture-style program operating model visual.
+The visual direction uses cool off-white canvas, deep navy text, electric blue emphasis, calm technical surfaces, compact sticky navigation, and realistic public-safe imagery for EV charging, battery/BMS, and validation systems.
 
 ## Evidence on Hand
 
 - `docs/Sahil_Sandhu_Portfolio_PRD_and_Launch_Pack 9.24.54 PM.pdf`: authoritative product, content, architecture, disclosure, deployment, and roadmap source.
 - `docs/SahilSandhu.pdf`: latest supplied resume source for exact role dates, education, publication, phone, program descriptions, and skill details.
-- `docs/desktop-hero.png` and `docs/mobile-hero.png`: supplied visual direction references.
+- Generated local JPEG assets in `site/assets/images/`: public-safe realistic hero and technical domain imagery.
 - Verified PRD metrics: 7 years of experience, 15+ NPI programs, 10+ automated HIL/ATE systems, 12,000+ connected units, 80% lower validation effort, 70% faster firmware cycles, 45% lower product failures, and more than 40% lower MTTR.
 - Latest resume details are incorporated into the site. Public contact email remains the user-supplied Gmail address.
 
