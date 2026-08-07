@@ -31,3 +31,6 @@ This map records each public claim used by the site and whether it is sourced fr
 | Phone number | `docs/SahilSandhu.pdf` | Contact, structured data | Public-safe because it appears in supplied resume |
 | LinkedIn profile | User supplied on 7 August 2026 | Hero, Contact, structured data | Public-safe as supplied |
 | Hero, battery pack, BMS, EV charger, and testing-station images | User request on 7 August 2026; AI-generated local JPEG assets authored for this site | Hero and domain image strip | Public-safe, illustrative only, no logos or proprietary markings |
+| IIT Madras logo | Official IIT Madras website asset at `https://www.iitm.ac.in/themes/custom/iitm/assets/images/iitm_logo.png` | Education credential | Trademark used only for factual education identification |
+| Indo-Swiss Training Centre and CSIR logos | Official ISTC website assets at `https://istc.ac.in/images/collegelogo.png` and `https://istc.ac.in/images/csirlogo.png` | Education credential | Trademarks used only for factual education identification |
+| IGI Global logo | Wikimedia Commons file `IGI_Global.jpg`, attributed to IGI Global and marked public-domain text logo | Publication credential | Used only for factual publication identification |

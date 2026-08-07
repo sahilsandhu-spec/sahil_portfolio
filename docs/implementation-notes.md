@@ -15,7 +15,7 @@ Reading this as: a professional experience portfolio for technical recruiters an
 
 The design now uses generated, public-safe, realistic technical imagery rather than the supplied example hero PNGs. The visual world remains cool off-white canvas, deep navy ink, electric blue emphasis, subtle technical surfaces, and compact navigation.
 
-The imagery deliberately avoids employer-specific product shots, customer names, proprietary diagrams, readable UI text, and brand markings. Education and publication marks are local badge-style identifiers rather than downloaded official logos.
+The imagery deliberately avoids employer-specific product shots, customer names, proprietary diagrams, readable UI text, and brand markings. Education and publication cards use local copies of actual IIT Madras, ISTC/CSIR, and IGI Global logo assets only for factual identification of Sahil's credentials.
 
 ## Installed UI Skill Guidance Applied
 
