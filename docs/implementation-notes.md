@@ -2,7 +2,7 @@
 
 ## Design Read
 
-Reading this as: a professional experience portfolio for technical recruiters and engineering leaders, with a calm technical executive language, static HTML/CSS, system typography, realistic public-safe technical imagery, and restrained motion.
+Reading this as: a professional experience portfolio for technical recruiters and engineering leaders, with cinematic technical storytelling around evidence-led content, static HTML/CSS, system typography, realistic public-safe imagery, and one memorable native-scroll interaction.
 
 ## Architecture
 
@@ -13,7 +13,7 @@ Reading this as: a professional experience portfolio for technical recruiters an
 
 ## Visual Direction
 
-The design now uses generated, public-safe, realistic technical imagery rather than the supplied example hero PNGs. The visual world remains cool off-white canvas, deep navy ink, electric blue emphasis, subtle technical surfaces, and compact navigation.
+The design uses generated, public-safe, realistic technical imagery rather than the supplied example hero PNGs. Deep-navy validation-lab scenes frame the full-viewport hero, impact rail, operating chapter, and contact close; cool off-white evidence surfaces, electric-blue signals, editorial rows, and large image-led program cases keep the long-form portfolio readable.
 
 The imagery deliberately avoids employer-specific product shots, customer names, proprietary diagrams, readable UI text, and brand markings. Education and publication cards use local copies of actual IIT Madras, ISTC/CSIR, and IGI Global logo assets only for factual identification of Sahil's credentials.
 
@@ -31,14 +31,16 @@ The resume lists `sahilsandhu@alumni.iitm.ac.in`; the site contact remains `sahi
 
 ## Accessibility
 
-Implemented semantic landmarks, skip link, logical headings, visible focus states, mobile menu keyboard support, Escape handling, accessible theme toggle, descriptive links, reduced-motion behavior, and sufficient contrast-focused tokens.
+Implemented semantic landmarks, skip link, logical headings, visible focus states, inert closed mobile navigation, focus containment/restoration, Escape handling, accessible theme toggle, descriptive links, reduced-motion and no-JavaScript fallbacks, and dedicated contrast-safe action/text tokens.
 
 ## Motion
 
 Motion is limited to:
 
-- Reveal-on-scroll using IntersectionObserver.
-- Metric count-up once when the metric strip enters the viewport.
-- Hover and press feedback on links, cards, and buttons.
+- A short first-viewport entrance and slow lab-image crop shift.
+- A page-progress line updated through a throttled animation frame.
+- One scroll-linked operating-stage scale/crop transition using CSS custom properties.
+- Metric count-up once when the evidence rail enters the viewport.
+- Image-crop, hover, and press feedback on real content and controls.
 
-Reduced-motion users get immediate content and no transform-based reveal movement.
+Native scrolling is never intercepted. Reduced-motion users receive the complete static composition immediately, and all general content remains visible even if the external JavaScript fails.

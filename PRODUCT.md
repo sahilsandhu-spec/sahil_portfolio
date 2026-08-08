@@ -20,7 +20,7 @@ They need to understand the target role, technical depth, program scope, proof m
 
 The portfolio presents Sahil Sandhu as a Technical Program Manager and Test Systems Architect who leads complex hardware-software programs from requirements and validation strategy through architecture, release readiness, production deployment, and data-driven improvement.
 
-Success means a recruiter or hiring manager can quickly understand Sahil's role fit and use the portfolio in application, referral, or interview conversations.
+Success means a recruiter or hiring manager can quickly understand Sahil's role fit, remember the portfolio's technical character, and use its evidence in application, referral, or interview conversations.
 
 ## Positioning
 
@@ -44,7 +44,7 @@ The site is public-safe and must not reveal confidential employer, customer, sup
 
 ## Brand Commitments
 
-The visual direction uses cool off-white canvas, deep navy text, electric blue emphasis, calm technical surfaces, compact sticky navigation, and realistic public-safe imagery for EV charging, battery/BMS, and validation systems.
+The visual direction combines cinematic deep-navy validation-lab scenes with cool off-white evidence surfaces, electric blue emphasis, compact fixed navigation, and realistic public-safe imagery for EV charging, battery/BMS, and validation systems. Immersion must never delay role clarity or recruiter actions.
 
 ## Evidence on Hand
 
@@ -60,6 +60,7 @@ The visual direction uses cool off-white canvas, deep navy text, electric blue e
 - Make evidence and outcomes easier to scan than skill lists.
 - Keep technical depth public-safe and interview-useful.
 - Preserve recruiter speed without flattening the engineering story.
+- Use one memorable interaction to demonstrate the operating model without hijacking native scrolling.
 - Favor static, privacy-conscious, resilient web delivery.
 
 ## Accessibility & Inclusion
